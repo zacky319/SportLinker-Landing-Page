@@ -1,0 +1,169 @@
+{
+  "Header": {
+    "title": "Welcome to SportLinker",
+    "paragraph": "Connect with fellow sports enthusiasts and find your perfect match for athletic activities."
+  },
+  "About": {
+    "paragraph": "SportLinker connects sports enthusiasts, making it easy to find teammates, organize events, chat, post content, and more. Join our community and elevate your sports experience!",
+    "Why": [
+      "Easily find sports partners",
+      "Build a strong local sports community",
+      "Arrange athletic events with ease",
+      "Receive reliable feedback and reviews"
+    ],
+    "Why2": [
+      "Efficiently organize your sports schedule",
+      "Connect and interact with other users",
+      "Discover new sports activities",
+      "Experience the joy of shared athleticism"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "SportLinker Event 1",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 2",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 3",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 4",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 5",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 6",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 7",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 8",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "SportLinker Event 9",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-futbol-o",
+      "name": "Find Sports Partners",
+      "text": "Easily find sports partners who share your interests and preferences."
+    },
+    {
+      "icon": "fa fa-users",
+      "name": "Build a Community",
+      "text": "Build a strong local sports community and participate in various athletic activities."
+    },
+    {
+      "icon": "fa fa-calendar",
+      "name": "Schedule Events",
+      "text": "Effortlessly organize athletic events and activities, and connect with other participants."
+    },
+    {
+      "icon": "fa fa-comments",
+      "name": "Feedback & Reviews",
+      "text": "Receive reliable feedback and reviews from fellow sports enthusiasts."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"SportLinker helped me find amazing sports partners and boosted my motivation to stay active!\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Thanks to SportLinker, I've discovered new sports activities and made lasting connections with other users.\"",
+      "name": "Jane Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"SportLinker's community aspect is fantastic! I've found like-minded individuals to enjoy sports with.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Pham Xuan Huy",
+      "job": "CEO"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Pham Ba Phuoc",
+      "job": "CTO"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Pham Dang Ninh",
+      "job": "Backend Developer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Vo Tan Tai",
+      "job": "Frontend Developer"
+    },
+    {
+      "img": "img/team/05.jpg",
+      "name": "Nguyen Ai Xuan",
+      "job": "Marketing"
+    },
+    {
+      "img": "img/team/06.jpg",
+      "name": "Nguyen Ngoc Tram Anh",
+      "job": "Finance"
+    }
+  ],
+  "Contact": {
+    "address": "1234 Sports Avenue, Cityville, State, 12345",
+    "phone": "+1 123 456 7890",
+    "email": "info@sportlinker.com",
+    "facebook": "fb.com/sportlinker",
+    "twitter": "twitter.com/sportlinker",
+    "youtube": "youtube.com/sportlinker"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-search",
+      "title": "Find Partners",
+      "text": "Easily find sports partners based on your preferences and location."
+    },
+    {
+      "icon": "fa fa-calendar-o",
+      "title": "Schedule Events",
+      "text": "Effortlessly schedule and organize athletic events with other users."
+    },
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Chat & Connect",
+      "text": "Connect and chat with other users to discuss sports plans and activities."
+    },
+    {
+      "icon": "fa fa-star-o",
+      "title": "Feedback & Reviews",
+      "text": "Provide and receive feedback and reviews to build a positive sports community."
+    }
+  ]
+}
