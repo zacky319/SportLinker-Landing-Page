@@ -1,15 +1,17 @@
 import { Image } from "./image";
 import React from "react";
-import '../components css/portfolio.css'
+import { useTranslation } from "react-i18next";
+import '../components css/portfolio.css';
+
 export const Gallery = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   return (
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>
-            Check out some snapshots of our SportLinker community in action!
-          </p>
+          <h2>{t("gallery.title")}</h2> {/* Access translation using t() */}
+          <p>{t("gallery.description")}</p> {/* Access translation using t() */}
         </div>
         <div className="row">
           <div className="portfolio-items">
@@ -26,7 +28,7 @@ export const Gallery = (props) => {
                     />
                   </div>
                 ))
-              : "Loading..."}
+              : t("gallery.loading")} {/* Display loading translation */}
           </div>
         </div>
       </div>

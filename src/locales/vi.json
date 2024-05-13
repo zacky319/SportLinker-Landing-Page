@@ -1,0 +1,61 @@
+{
+    "contact": {
+      "title": "Liên hệ",
+      "formInstructions": "Điền vào biểu mẫu dưới đây để gửi cho chúng tôi một tin nhắn và chúng tôi sẽ trả lời bạn sớm nhất có thể.",
+      "namePlaceholder": "Tên",
+      "emailPlaceholder": "Email",
+      "messagePlaceholder": "Tin nhắn",
+      "sendButton": "Gửi tin nhắn",
+      "contactInfoTitle": "Thông tin liên hệ",
+      "addressLabel": "Địa chỉ",
+      "phoneLabel": "Điện thoại",
+      "emailLabel": "Email",
+      "loading": "Đang tải..."
+    },
+    "about": {
+      "title": "Về chúng tôi",
+      "paragraph": "đang tải...",
+      "whyChooseUs":"Tại sao lại chọn chúng tôi",
+      "downloadForIOS":"Tải về trên IOS",
+          "downloadForAndroid":"Tải về trên Android",
+      "Why": ["đang tải..."],
+      "Why2": ["đang tải..."]
+    },
+    "navigation": {
+      "features": "Tính năng",
+      "about": "Về chúng tôi",
+      "services": "Dịch vụ",
+      "gallery": "Thư viện ảnh",
+      "testimonials": "Phản hồi",
+      "team": "Đội ngũ",
+      "contact": "Liên hệ"
+    },
+    "features": {
+      "title": "Tính năng",
+      "loading": "Đang tải..."
+    },
+    "testimonials": {
+      "title": "Nhận xét của khách hàng",
+      "loading": "Đang tải..."
+    },
+    "gallery": {
+      "title": "Thư viện ảnh",
+      "description": "Xem một số bức ảnh chụp của cộng đồng SportLinker khi hoạt động!",
+      "loading": "Đang tải..."
+    },
+    "header": {
+      "title": "Chào mừng đến với SportLinker",
+      "paragraph": "Kết nối với những người đam mê thể thao và khám phá những hoạt động mới.",
+      "learnMore": "Tìm hiểu thêm"
+    },
+    "services": {
+      "title": "Dịch vụ của chúng tôi",
+      "description": "Khám phá các dịch vụ chúng tôi cung cấp để nâng cao trải nghiệm thể thao của bạn.",
+      "loading": "Đang tải..."
+    },
+    "team": {
+      "title": "Đội ngũ của chúng tôi",
+      "description": "Gặp gỡ những cá nhân đầy đam mê đứng sau SportLinker."
+    }
+  }
+  

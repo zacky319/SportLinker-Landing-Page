@@ -1,11 +1,15 @@
 import React from "react";
-import '../components css/testimonials.css'
+import { useTranslation } from "react-i18next";
+import '../components css/testimonials.css';
+
 export const Testimonials = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   return (
     <div id="testimonials">
       <div className="container">
         <div className="section-title text-center">
-          <h2>What our clients say</h2>
+          <h2>{t("testimonials.title")}</h2> {/* Access translation using t() */}
         </div>
         <div className="row">
           {props.data
@@ -23,7 +27,7 @@ export const Testimonials = (props) => {
                   </div>
                 </div>
               ))
-            : "loading"}
+            : t("testimonials.loading")} {/* Display loading translation */}
         </div>
       </div>
     </div>

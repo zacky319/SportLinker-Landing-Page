@@ -8,7 +8,7 @@
 }
 
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -20,7 +20,7 @@
 }
 
 #menu .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -107,7 +107,7 @@
 }
 
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Cabin", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #4478FF;
@@ -160,7 +160,7 @@ a:focus,
 }
 
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -172,7 +172,7 @@ a:focus,
 }
 
 #menu .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   color: #555;
   font-size: 15px;
@@ -259,7 +259,7 @@ a:focus,
 }
 
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Cabin", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #4478FF;
@@ -306,6 +306,24 @@ a:focus,
   max-width: 150px; /* Set the maximum width of the logo */
   margin-top: -20px; /* Adjust the top margin to position the logo */
 }
+.language-toggle-container {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.language-toggle {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+}
+
+.language-toggle:hover {
+  color: #555;
+}
+
 
 /* Responsive Styles */
 @media (max-width: 1000px) {

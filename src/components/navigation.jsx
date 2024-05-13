@@ -1,6 +1,19 @@
-import React from "react";
-import '../components css/navigation.css';
+import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
+import i18n from "../i18n"; // Import the i18n instance
+import "../components css/navigation.css";
+
 export const Navigation = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
+  const [currentLanguage, setCurrentLanguage] = useState(i18n.language); // State to store current language
+
+  const changeLanguage = () => {
+    const newLanguage = currentLanguage === "en" ? "vi" : "en"; // Toggle between English and Vietnamese
+    i18n.changeLanguage(newLanguage); // Change language using i18n instance
+    setCurrentLanguage(newLanguage); // Update current language state
+  };
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -33,41 +46,47 @@ export const Navigation = (props) => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <a href="#features" className="page-scroll">
-                Features
+                {t("navigation.features")} {/* Access translation using t() */}
               </a>
             </li>
             <li>
               <a href="#about" className="page-scroll">
-                About
+                {t("navigation.about")}
               </a>
             </li>
             <li>
               <a href="#services" className="page-scroll">
-                Services
+                {t("navigation.services")}
               </a>
             </li>
             <li>
               <a href="#portfolio" className="page-scroll">
-                Gallery
+                {t("navigation.gallery")}
               </a>
             </li>
             <li>
               <a href="#testimonials" className="page-scroll">
-                Testimonials
+                {t("navigation.testimonials")}
               </a>
             </li>
             <li>
               <a href="#team" className="page-scroll">
-                Team
+                {t("navigation.team")}
               </a>
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                {t("navigation.contact")}
               </a>
+            </li>
+            <li className="language-toggle-container" style={{ textAlign:'center',paddingLeft:'4rem', marginTop:"14px"}}>
+              <button className="language-toggle" onClick={changeLanguage}>
+                {currentLanguage === "en" ? "Tiếng Việt" : "English"}
+              </button>
             </li>
           </ul>
         </div>
+        {/* Language toggle button */}
       </div>
     </nav>
   );

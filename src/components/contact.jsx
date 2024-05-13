@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next"; // Import the useTranslation hook
 import '../components css/contact.css';
+
 const initialState = {
   name: "",
   email: "",
@@ -8,6 +10,8 @@ const initialState = {
 };
 
 export const Contact = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
@@ -44,10 +48,9 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Contact Us</h2>
+                <h2>{t("contact.title")}</h2> {/* Translate title */}
                 <p>
-                  Fill out the form below to send us a message and we will get
-                  back to you as soon as possible.
+                  {t("contact.formInstructions")} {/* Translate form instructions */}
                 </p>
               </div>
               <form name="sentMessage" onSubmit={handleSubmit}>
@@ -59,7 +62,7 @@ export const Contact = (props) => {
                         id="name"
                         name="name"
                         className="form-control"
-                        placeholder="Name"
+                        placeholder={t("contact.namePlaceholder")}
                         required
                         onChange={handleChange}
                       />
@@ -72,7 +75,7 @@ export const Contact = (props) => {
                         id="email"
                         name="email"
                         className="form-control"
-                        placeholder="Email"
+                        placeholder={t("contact.emailPlaceholder")}
                         required
                         onChange={handleChange}
                       />
@@ -85,41 +88,40 @@ export const Contact = (props) => {
                     id="message"
                     className="form-control"
                     rows="4"
-                    placeholder="Message"
-                    required
+                    placeholder={t("contact.messagePlaceholder")}
                     onChange={handleChange}
                   ></textarea>
                 </div>
                 <button type="submit" className="btn btn-custom btn-lg">
-                  Send Message
+                  {t("contact.sendButton")} {/* Translate button text */}
                 </button>
               </form>
             </div>
           </div>
           <div className="col-md-3 col-md-offset-1 contact-info">
             <div className="contact-item">
-              <h3>Contact Info</h3>
+              <h3>{t("contact.contactInfoTitle")}</h3> {/* Translate title */}
               <p>
                 <span>
-                  <i className="fa fa-map-marker"></i> Address
+                  <i className="fa fa-map-marker"></i> {t("contact.addressLabel")} {/* Translate label */}
                 </span>{" "}
-                {props.data ? props.data.address : "loading"}
+                {props.data ? props.data.address : t("contact.loading")} {/* Translate loading text */}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-phone"></i> Phone
+                  <i className="fa fa-phone"></i> {t("contact.phoneLabel")} {/* Translate label */}
                 </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                {props.data ? props.data.phone : t("contact.loading")} {/* Translate loading text */}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
-                  <i className="fa fa-envelope-o"></i> Email
+                  <i className="fa fa-envelope-o"></i> {t("contact.emailLabel")} {/* Translate label */}
                 </span>{" "}
-                {props.data ? props.data.email : "loading"}
+                {props.data ? props.data.email : t("contact.loading")} {/* Translate loading text */}
               </p>
             </div>
           </div>
@@ -151,10 +153,7 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; {new Date().getFullYear()} SportLinker. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
+            &copy; {new Date().getFullYear()} SportLinker
           </p>
         </div>
       </div>

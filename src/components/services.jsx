@@ -1,6 +1,10 @@
 import React from "react";
-import '../components css/services.css'
+import { useTranslation } from "react-i18next";
+import '../components css/services.css';
+
 export const Services = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   return (
     <div
       id="services"
@@ -15,10 +19,8 @@ export const Services = (props) => {
     >
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
-          <p>
-            Explore the services we offer to enhance your sports experience.
-          </p>
+          <h2>{t("services.title")}</h2> {/* Access translation using t() */}
+          <p>{t("services.description")}</p> {/* Access translation using t() */}
         </div>
         <div className="row">
           {props.data
@@ -32,7 +34,7 @@ export const Services = (props) => {
                   </div>
                 </div>
               ))
-            : "Loading..."}
+            : t("services.loading")} {/* Display loading translation */}
         </div>
       </div>
     </div>

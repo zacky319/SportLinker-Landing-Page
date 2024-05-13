@@ -89,21 +89,31 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"SportLinker helped me find amazing sports partners and boosted my motivation to stay active!\"",
-      "name": "John Doe"
+        "img": "img/testimonials/01.jpg",
+        "text": "\"SportLinker helped me find amazing sports partners and boosted my motivation to stay active!\"",
+        "name": "John Doe"
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Thanks to SportLinker, I've discovered new sports activities and made lasting connections with other users.\"",
-      "name": "Jane Doe"
+        "img": "img/testimonials/02.jpg",
+        "text": "\"Thanks to SportLinker, I've discovered new sports activities and made lasting connections with other users.\"",
+        "name": "Jane Doe"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"SportLinker's community aspect is fantastic! I've found like-minded individuals to enjoy sports with.\"",
-      "name": "Johnathan Doe"
+        "img": "img/testimonials/03.jpg",
+        "text": "\"SportLinker's community aspect is fantastic! I've found like-minded individuals to enjoy sports with.\"",
+        "name": "Johnathan Doe"
+    },
+    {
+        "img": "img/testimonials/04.jpg",
+        "text": "\"SportLinker is amazing! It helped me stay accountable and motivated in my fitness journey.\"",
+        "name": "Emily Smith"
+    },
+    {
+        "img": "img/testimonials/05.jpg",
+        "text": "\"I love using SportLinker to explore new sports and connect with fellow enthusiasts. Highly recommended!\"",
+        "name": "Michael Johnson"
     }
-  ],
+],
   "Team": [
     {
       "img": "img/team/01.jpg",

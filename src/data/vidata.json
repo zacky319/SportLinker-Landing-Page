@@ -1,0 +1,180 @@
+{
+    "Header": {
+      "title": "Chào mừng bạn đến với SportLinker",
+      "paragraph": "Kết nối với những người đam mê thể thao và tìm đối tác hoàn hảo cho các hoạt động thể thao của bạn."
+    },
+    "About": {
+      "paragraph": "SportLinker kết nối những người đam mê thể thao, giúp bạn dễ dàng tìm đối tác, tổ chức sự kiện, trò chuyện, đăng nội dung và nhiều hơn thế nữa. Tham gia cộng đồng của chúng tôi và nâng cao trải nghiệm thể thao của bạn!",
+      "Why": [
+        "Dễ dàng tìm đối tác thể thao",
+        "Xây dựng cộng đồng thể thao địa phương mạnh mẽ",
+        "Sắp xếp sự kiện thể thao một cách dễ dàng",
+        "Nhận phản hồi và đánh giá đáng tin cậy"
+      ],
+      "Why2": [
+        "Tổ chức lịch trình thể thao của bạn một cách hiệu quả",
+        "Kết nối và tương tác với người dùng khác",
+        "Khám phá các hoạt động thể thao mới",
+        "Trải nghiệm niềm vui của sự thể thao chia sẻ"
+      ]
+    },
+    "Gallery": [
+      {
+        "title": "Sự kiện SportLinker 1",
+        "largeImage": "img/portfolio/01-large.jpg",
+        "smallImage": "img/portfolio/01-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 2",
+        "largeImage": "img/portfolio/02-large.jpg",
+        "smallImage": "img/portfolio/02-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 3",
+        "largeImage": "img/portfolio/03-large.jpg",
+        "smallImage": "img/portfolio/03-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 4",
+        "largeImage": "img/portfolio/04-large.jpg",
+        "smallImage": "img/portfolio/04-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 5",
+        "largeImage": "img/portfolio/05-large.jpg",
+        "smallImage": "img/portfolio/05-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 6",
+        "largeImage": "img/portfolio/06-large.jpg",
+        "smallImage": "img/portfolio/06-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 7",
+        "largeImage": "img/portfolio/07-large.jpg",
+        "smallImage": "img/portfolio/07-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 8",
+        "largeImage": "img/portfolio/08-large.jpg",
+        "smallImage": "img/portfolio/08-small.jpg"
+      },
+      {
+        "title": "Sự kiện SportLinker 9",
+        "largeImage": "img/portfolio/09-large.jpg",
+        "smallImage": "img/portfolio/09-small.jpg"
+      }
+    ],
+    "Services": [
+      {
+        "icon": "fa fa-futbol-o",
+        "name": "Tìm Đối Tác Thể Thao",
+        "text": "Dễ dàng tìm đối tác thể thao có cùng sở thích và ưa thích với bạn."
+      },
+      {
+        "icon": "fa fa-users",
+        "name": "Xây Dựng Cộng Đồng",
+        "text": "Xây dựng một cộng đồng thể thao địa phương mạnh mẽ và tham gia vào các hoạt động thể thao đa dạng."
+      },
+      {
+        "icon": "fa fa-calendar",
+        "name": "Lập Kế Hoạch Sự Kiện",
+        "text": "Tổ chức và lập kế hoạch sự kiện thể thao một cách dễ dàng và kết nối với các thành viên khác."
+      },
+      {
+        "icon": "fa fa-comments",
+        "name": "Phản Hồi & Đánh Giá",
+        "text": "Nhận phản hồi và đánh giá đáng tin cậy từ những người đam mê thể thao khác."
+    }
+    ],
+    "Testimonials": [
+    {
+    "img": "img/testimonials/01.jpg",
+    "text": "SportLinker đã giúp tôi tìm thấy những đối tác thể thao tuyệt vời và tăng động lực để duy trì hoạt động!",
+    "name": "John Doe"
+    },
+    {
+    "img": "img/testimonials/02.jpg",
+    "text": "Nhờ SportLinker, tôi đã khám phá ra những hoạt động thể thao mới và tạo ra những kết nối lâu dài với các người dùng khác.",
+    "name": "Jane Doe"
+    },
+    {
+    "img": "img/testimonials/03.jpg",
+    "text": "Khía cạnh cộng đồng của SportLinker thật tuyệt vời! Tôi đã tìm thấy những cá nhân có cùng suy nghĩ để cùng thưởng thức thể thao.",
+    "name": "Johnathan Doe"
+    },
+    {
+    "img": "img/testimonials/04.jpg",
+    "text": "SportLinker thật tuyệt vời! Nó giúp tôi duy trì sự chịu trách nhiệm và động viên trong hành trình tập luyện của mình.",
+    "name": "Emily Smith"
+    },
+    {
+    "img": "img/testimonials/05.jpg",
+    "text": "Tôi thích sử dụng SportLinker để khám phá những môn thể thao mới và kết nối với những người đam mê khác. Rất đáng khuyến khích!",
+    "name": "Michael Johnson"
+    }
+    ],
+    "Team": [
+    {
+    "img": "img/team/01.jpg",
+    "name": "Phạm Xuân Huy",
+    "job": "CEO"
+    },
+    {
+    "img": "img/team/02.jpg",
+    "name": "Phạm Bá Phước",
+    "job": "CTO"
+    },
+    {
+    "img": "img/team/03.jpg",
+    "name": "Phạm Đăng Ninh",
+    "job": "Backend Developer"
+    },
+    {
+    "img": "img/team/04.jpg",
+    "name": "Võ Tấn Tài",
+    "job": "Frontend Developer"
+    },
+    {
+    "img": "img/team/05.jpg",
+    "name": "Nguyễn Ái Xuân",
+    "job": "Marketing"
+    },
+    {
+    "img": "img/team/06.jpg",
+    "name": "Nguyễn Ngọc Trâm Anh",
+    "job": "Finance"
+    }
+    ],
+    "Contact": {
+    "address": "1234 Sports Avenue, Cityville, State, 12345",
+    "phone": "+1 123 456 7890",
+    "email": "info@sportlinker.com",
+    "facebook": "fb.com/sportlinker",
+    "twitter": "twitter.com/sportlinker",
+    "youtube": "youtube.com/sportlinker"
+    },
+    "Features": [
+    {
+    "icon": "fa fa-search",
+    "title": "Tìm Đối Tác",
+    "text": "Dễ dàng tìm đối tác thể thao dựa trên sở thích và vị trí của bạn."
+    },
+    {
+    "icon": "fa fa-calendar-o",
+    "title": "Lập Kế Hoạch Sự Kiện",
+    "text": "Dễ dàng lập kế hoạch và tổ chức các sự kiện thể thao với người dùng khác."
+    },
+    {
+    "icon": "fa fa-comments-o",
+    "title": "Trò Chuyện & Kết Nối",
+    "text": "Kết nối và trò chuyện với người dùng khác để thảo luận về kế hoạch và hoạt động thể thao."
+    },
+    {
+    "icon": "fa fa-star-o",
+    "title": "Phản Hồi & Đánh Giá",
+    "text": "Cung cấp và nhận phản hồi và đánh giá để xây dựng một cộng đồng thể thao tích cực."
+}]
+}
+
+  

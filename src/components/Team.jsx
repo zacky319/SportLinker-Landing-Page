@@ -1,13 +1,17 @@
 import React from "react";
-import '../components css/team.css'
+import { useTranslation } from "react-i18next";
+import '../components css/team.css';
+
 export const Team = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   return (
     <div id="team" className="text-center">
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
-          <h2>Our Team</h2>
+          <h2>{t("team.title")}</h2> {/* Access translation using t() */}
           <p>
-            Meet the passionate individuals behind SportLinker.
+            {t("team.description")}
           </p>
         </div>
         <div id="row">
@@ -24,7 +28,7 @@ export const Team = (props) => {
                   </div>
                 </div>
               ))
-            : "loading"}
+            : t("team.loading")} {/* Display loading translation */}
         </div>
       </div>
     </div>

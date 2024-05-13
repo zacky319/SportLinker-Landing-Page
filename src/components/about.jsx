@@ -1,7 +1,10 @@
 import React from "react";
-import { AppleOutlined, AndroidOutlined } from "@ant-design/icons";
+import { useTranslation } from "react-i18next";
 import '../components css/about.css'
+
 export const About = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   const downloadLinkStyle = {
     display: "inline-flex",
     alignItems: "center",
@@ -31,9 +34,9 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6">
             <div className="about-text">
-              <h2>About Us</h2>
-              <p>{props.data ? props.data.paragraph : "loading..."}</p>
-              <h3>Why Choose Us?</h3>
+              <h2>{t("about.title")}</h2>
+              <p>{props.data ? props.data.paragraph : t("about.loading")}</p>
+              <h3>{t("about.whyChooseUs")}</h3>
               <div className="list-style">
                 <div className="col-lg-6 col-sm-6 col-xs-12">
                   <ul>
@@ -41,7 +44,7 @@ export const About = (props) => {
                       ? props.data.Why.map((d, i) => (
                           <li key={`${d}-${i}`}>{d}</li>
                         ))
-                      : "loading"}
+                      : t("about.loading")}
                   </ul>
                 </div>
                 <div className="col-lg-6 col-sm-6 col-xs-12">
@@ -50,16 +53,16 @@ export const About = (props) => {
                       ? props.data.Why2.map((d, i) => (
                           <li key={`${d}-${i}`}> {d}</li>
                         ))
-                      : "loading"}
+                      : t("about.loading")}
                   </ul>
                 </div>
               </div>
               <div className="download-links">
                 <a href="#" className="btn btn-custom" style={downloadLinkStyle}>
-                  <AppleOutlined style={iconStyle} /> Download for iOS
+                  {t("about.downloadForIOS")} <i className="fa fa-apple"></i>
                 </a>
                 <a href="#" className="btn btn-custom" style={downloadLinkStyle}>
-                  <AndroidOutlined style={iconStyle} /> Download for Android
+                  {t("about.downloadForAndroid")} <i className="fa fa-android"></i>
                 </a>
               </div>
             </div>

@@ -1,23 +1,27 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import '../components css/header.css';
+
 export const Header = (props) => {
+  const { t } = useTranslation(); // Hook to access translations
+
   return (
-    <header id="header"  >
+    <header id="header">
       <div className="intro">
         <div className="overlay">
           <div className="container">
             <div className="row">
               <div className="col-md-8 col-md-offset-2 intro-text">
                 <h1>
-                  {props.data ? props.data.title : "Loading"}
+                  {t("header.title")} {/* Access translation using t() */}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
+                <p>{t("header.paragraph")}</p>
                 <a
                   href="#features"
                   className="btn btn-custom btn-lg page-scroll"
                 >
-                  Learn More
+                  {t("header.learnMore")}
                 </a>{" "}
               </div>
             </div>
