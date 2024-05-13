@@ -34,6 +34,7 @@
   }
   #contact form {
     padding-top: 20px;
+    border-radius: 50px;
   }
   #contact .text-danger {
     color: #cc0033;
@@ -57,6 +58,7 @@
   #contact .form-control {
     display: block;
     width: 100%;
+    border-radius: 10px; /* Updated border-radius */
     padding: 6px 12px;
     font-size: 16px;
     line-height: 1.42857143;
@@ -64,13 +66,14 @@
     background-color: #fff;
     background-image: none;
     border: 1px solid #ddd;
-    border-radius: 0;
+    /* Remove the duplicate border-radius property */
     -webkit-box-shadow: none;
     box-shadow: none;
     -webkit-transition: none;
     -o-transition: none;
     transition: none;
-  }
+}
+
   #contact .form-control:focus {
     border-color: #999;
     outline: 0;
