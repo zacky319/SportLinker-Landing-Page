@@ -3,6 +3,7 @@
   display: table;
   width: 100%;
   background: url(../../public/img/intro-bg.jpg) center center no-repeat;
+  background-size: cover;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
