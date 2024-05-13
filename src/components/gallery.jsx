@@ -1,6 +1,6 @@
 import { Image } from "./image";
 import React from "react";
-
+import '../components css/portfolio.css'
 export const Gallery = (props) => {
   return (
     <div id="portfolio" className="text-center">

@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../components css/navigation.css';
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
@@ -21,7 +21,7 @@ export const Navigation = (props) => {
             <img
               src="/img/logo.png"
               alt="SportLinker Logo"
-              // Remove the inline style for max-width
+              className="logo-img"
             />
           </a>
         </div>

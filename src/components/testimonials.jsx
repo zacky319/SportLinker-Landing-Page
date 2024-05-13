@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../components css/testimonials.css'
 export const Testimonials = (props) => {
   return (
     <div id="testimonials">

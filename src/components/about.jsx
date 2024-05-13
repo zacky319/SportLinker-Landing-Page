@@ -1,6 +1,6 @@
 import React from "react";
 import { AppleOutlined, AndroidOutlined } from "@ant-design/icons";
-
+import '../components css/about.css'
 export const About = (props) => {
   const downloadLinkStyle = {
     display: "inline-flex",

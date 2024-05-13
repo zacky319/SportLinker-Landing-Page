@@ -1,5 +1,5 @@
 import React from "react";
-
+import '../components css/services.css'
 export const Services = (props) => {
   return (
     <div
@@ -7,9 +7,8 @@ export const Services = (props) => {
       className="text-center"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${process.env.PUBLIC_URL}/img/background.png)`,
-        backgroundSize: "100% auto", // Stretch only in width
+        backgroundSize: "cover", // Stretch only in width
         backgroundPosition: "center",
-        height: "100vh",
         color: "#fff",
         padding: "50px 0",
       }}

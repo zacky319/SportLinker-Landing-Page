@@ -1,0 +1,33 @@
+/* Features Section */
+#features {
+  background: #f6f6f6;
+  padding: 50px 0; /* Add padding to provide space between content and background */
+  overflow: hidden; /* Prevent content overflow */
+  display: flex; /* Use flexbox for vertical alignment */
+  justify-content: center; /* Center child elements horizontally */
+  align-items: center; /* Center child elements vertically */
+   /* Set minimum height to the height of the viewport */
+}
+
+#features i.fa {
+  font-size: 24px; /* Reduce font size for smaller screens */
+  margin-bottom: 10px; /* Reduce margin bottom */
+  transition: all 0.5s;
+  color: #fff;
+  width: 60px; /* Reduce width for smaller icons */
+  height: fit-content;
+  padding: 15px 0; /* Reduce padding */
+  border-radius: 50%;
+  background: linear-gradient(to right, #1646a9 0%, #4478ff 100%);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05); /* Reduce box shadow */
+}
+
+#features h3 {
+  margin-top: 5px; /* Reduce margin top */
+  margin-bottom: 5px; /* Reduce margin bottom */
+  font-size: 18px; /* Adjust font size for smaller screens */
+}
+
+#features p {
+  font-size: 14px; /* Adjust font size for smaller screens */
+}

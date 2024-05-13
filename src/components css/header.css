@@ -1,0 +1,66 @@
+/* Header Section */
+.intro {
+  display: table;
+  width: 100%;
+  background: url(../../public/img/intro-bg.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.intro .overlay {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.intro h1 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 50px; /* Default font size */
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 10px; /* Adjust margin bottom */
+}
+
+.intro h1 span {
+  font-weight: 800;
+  color: #4478FF;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 16px; /* Default font size */
+  font-weight: 300;
+  line-height: 24px; /* Default line height */
+  margin: 0 auto;
+  margin-bottom: 30px; /* Adjust margin bottom */
+}
+
+header .intro-text {
+  padding-top: 150px; /* Default padding top */
+  padding-bottom: 100px; /* Default padding bottom */
+  text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .intro h1 {
+    font-size: 36px; /* Adjust font size for smaller screens */
+  }
+
+  .intro p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    line-height: 20px; /* Adjust line height for smaller screens */
+    margin-bottom: 20px; /* Adjust margin bottom for smaller screens */
+  }
+
+  header .intro-text {
+    padding-top: 100px; /* Adjust padding top for smaller screens */
+    padding-bottom: 80px; /* Adjust padding bottom for smaller screens */
+  }
+}
+.header{
+  width: 100%;
+}
