@@ -13,13 +13,14 @@
       "loading": "Đang tải..."
     },
     "about": {
-      "title": "Về chúng tôi",
-      "paragraph": "đang tải...",
-      "whyChooseUs":"Tại sao lại chọn chúng tôi",
-      "downloadForIOS":"Tải về trên IOS",
-          "downloadForAndroid":"Tải về trên Android",
-      "Why": ["đang tải..."],
-      "Why2": ["đang tải..."]
+      "title": "Về Chúng Tôi",
+      "paragraph": "Đoạn giới thiệu về chúng tôi ở đây.",
+      "whyChooseUs": "Tại Sao Chọn Chúng Tôi?",
+      "loading": "Đang tải...",
+      "downloadForIOS": "Tải xuống cho iOS",
+      "downloadForAndroid": "Tải xuống cho Android",
+      "modalTitle": "Thông báo",
+      "closeModal": "Đóng"
     },
     "navigation": {
       "features": "Tính năng",

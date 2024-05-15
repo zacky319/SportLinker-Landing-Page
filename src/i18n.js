@@ -16,8 +16,8 @@ i18n
         translation: engTranslation, // English translations
       },
     },
-    lng: "en", // Default language is Vietnamese
-    fallbackLng: "en", // Fallback to Vietnamese if translation key is missing
+    lng: "vi", // Default language is Vietnamese
+    fallbackLng: "vi", // Fallback to Vietnamese if translation key is missing
     interpolation: {
       escapeValue: false,
     },

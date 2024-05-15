@@ -12,15 +12,16 @@
       "emailLabel": "Email",
       "loading": "Loading..."
     },
-        "about": {
-          "title": "About Us",
-          "paragraph": "loading...",
-          "whyChooseUs":"Why Choose Us",
-          "downloadForIOS":"Download For IOS",
-          "downloadForAndroid":"Download For Android",
-          "Why": ["loading..."],
-          "Why2": ["loading..."]
-        },
+    "about": {
+      "title": "About Us",
+      "paragraph": "Your about paragraph here.",
+      "whyChooseUs": "Why Choose Us?",
+      "loading": "Loading...",
+      "downloadForIOS": "Download for iOS",
+      "downloadForAndroid": "Download for Android",
+      "modalTitle": "Notice",
+      "closeModal": "Close"
+    },
         "navigation": {
             "features": "Features",
             "about": "About",

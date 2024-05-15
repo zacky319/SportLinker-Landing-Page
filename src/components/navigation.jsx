@@ -79,7 +79,7 @@ export const Navigation = (props) => {
                 {t("navigation.contact")}
               </a>
             </li>
-            <li className="language-toggle-container" style={{ textAlign:'center',paddingLeft:'4rem', marginTop:"14px"}}>
+            <li>
               <button className="language-toggle" onClick={changeLanguage}>
                 {currentLanguage === "en" ? "Tiếng Việt" : "English"}
               </button>
