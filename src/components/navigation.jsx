@@ -69,17 +69,24 @@ export const Navigation = (props) => {
                 {t("navigation.testimonials")}
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#team" className="page-scroll">
                 {t("navigation.team")}
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact" className="page-scroll">
                 {t("navigation.contact")}
               </a>
             </li>
-            <li>
+            <li
+              className="language-toggle-container"
+              style={{
+                textAlign: "center",
+                paddingLeft: "4rem",
+              }}
+            >
+              {" "}
               <button className="language-toggle" onClick={changeLanguage}>
                 {currentLanguage === "en" ? "Tiếng Việt" : "English"}
               </button>

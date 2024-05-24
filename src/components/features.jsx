@@ -16,7 +16,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3" style={{ marginBottom: "20px" }}>
                   {" "}
-                  <i className={d.icon} style={{ fontSize: "24px" }}></i>
+                  <i className={d.icon} style={{ fontSize: "24px", alignContent:"center" }}></i>
                   <h3 style={{ marginTop: "10px", marginBottom: "10px" }}>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>
